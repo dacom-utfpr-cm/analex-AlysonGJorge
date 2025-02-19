@@ -1,0 +1,2352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>&#13;
+	<type>moore</type>&#13;
+	<automaton>&#13;
+		<!--The list of states.-->&#13;
+		<state id="0" name="q0">&#13;
+			<x>1307.0</x>&#13;
+			<y>931.0</y>&#13;
+			<initial/>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="1" name="id">&#13;
+			<x>1988.0</x>&#13;
+			<y>579.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="2" name="i">&#13;
+			<x>1893.0</x>&#13;
+			<y>976.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="3" name="in">&#13;
+			<x>2005.0</x>&#13;
+			<y>935.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="4" name="int">&#13;
+			<x>2125.0</x>&#13;
+			<y>890.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="5" name="if">&#13;
+			<x>1772.0</x>&#13;
+			<y>922.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="6" name="int_parenteses_esq">&#13;
+			<x>2156.0</x>&#13;
+			<y>772.0</y>&#13;
+			<output>INT
+LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="7" name="int_parenteses_dir">&#13;
+			<x>2233.0</x>&#13;
+			<y>980.0</y>&#13;
+			<output>INT
+RPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="8" name="int_espaco">&#13;
+			<x>2249.0</x>&#13;
+			<y>837.0</y>&#13;
+			<output>INT
+</output>&#13;
+		</state>&#13;
+		<state id="9" name="if_parenteses_esq">&#13;
+			<x>1740.0</x>&#13;
+			<y>1003.0</y>&#13;
+			<output>IF
+LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="10" name="if_espaco">&#13;
+			<x>1663.0</x>&#13;
+			<y>865.0</y>&#13;
+			<output>IF
+</output>&#13;
+		</state>&#13;
+		<state id="11" name="f">&#13;
+			<x>2132.0</x>&#13;
+			<y>714.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="12" name="fl">&#13;
+			<x>2308.0</x>&#13;
+			<y>675.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="13" name="flo">&#13;
+			<x>2433.0</x>&#13;
+			<y>634.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="14" name="floa">&#13;
+			<x>2556.0</x>&#13;
+			<y>595.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="15" name="float">&#13;
+			<x>2664.0</x>&#13;
+			<y>557.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="16" name="float_parenteses_esq">&#13;
+			<x>2820.0</x>&#13;
+			<y>617.0</y>&#13;
+			<output>FLOAT
+LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="17" name="float_parenteses_dir">&#13;
+			<x>2724.0</x>&#13;
+			<y>507.0</y>&#13;
+			<output>FLOAT
+RPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="18" name="float_espaco">&#13;
+			<x>2768.0</x>&#13;
+			<y>570.0</y>&#13;
+			<output>FLOAT
+</output>&#13;
+		</state>&#13;
+		<state id="19" name="e">&#13;
+			<x>1138.0</x>&#13;
+			<y>757.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="20" name="el">&#13;
+			<x>1137.0</x>&#13;
+			<y>669.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="21" name="els">&#13;
+			<x>1123.0</x>&#13;
+			<y>578.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="22" name="else">&#13;
+			<x>1084.0</x>&#13;
+			<y>500.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="23" name="w">&#13;
+			<x>2094.0</x>&#13;
+			<y>635.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="24" name="wh">&#13;
+			<x>2208.0</x>&#13;
+			<y>579.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="25" name="whi">&#13;
+			<x>2306.0</x>&#13;
+			<y>532.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="26" name="whil">&#13;
+			<x>2408.0</x>&#13;
+			<y>481.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="27" name="while">&#13;
+			<x>2513.0</x>&#13;
+			<y>427.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="28" name="while_parenteses_esq">&#13;
+			<x>2479.0</x>&#13;
+			<y>325.0</y>&#13;
+			<output>WHILE
+LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="29" name="while_espaco">&#13;
+			<x>2612.0</x>&#13;
+			<y>380.0</y>&#13;
+			<output>WHILE
+</output>&#13;
+		</state>&#13;
+		<state id="30" name="r">&#13;
+			<x>1238.0</x>&#13;
+			<y>827.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="31" name="re">&#13;
+			<x>1247.0</x>&#13;
+			<y>758.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="32" name="ret">&#13;
+			<x>1261.0</x>&#13;
+			<y>680.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="33" name="retu">&#13;
+			<x>1272.0</x>&#13;
+			<y>585.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="34" name="retur">&#13;
+			<x>1311.0</x>&#13;
+			<y>518.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="35" name="return">&#13;
+			<x>1379.0</x>&#13;
+			<y>451.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="36" name="return_parenteses_esq">&#13;
+			<x>1411.0</x>&#13;
+			<y>288.0</y>&#13;
+			<output>RETURN
+LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="37" name="return_ponto_virgula">&#13;
+			<x>1205.0</x>&#13;
+			<y>359.0</y>&#13;
+			<output>RETURN
+SEMICOLON
+</output>&#13;
+		</state>&#13;
+		<state id="38" name="return_espaco">&#13;
+			<x>1473.0</x>&#13;
+			<y>339.0</y>&#13;
+			<output>RETURN
+</output>&#13;
+		</state>&#13;
+		<state id="39" name="v">&#13;
+			<x>1493.0</x>&#13;
+			<y>877.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="40" name="vo">&#13;
+			<x>1658.0</x>&#13;
+			<y>802.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="41" name="voi">&#13;
+			<x>1761.0</x>&#13;
+			<y>758.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="42" name="void">&#13;
+			<x>2141.0</x>&#13;
+			<y>543.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="43" name="else_chaves_esq">&#13;
+			<x>972.0</x>&#13;
+			<y>505.0</y>&#13;
+			<output>ELSE
+LBRACES
+</output>&#13;
+		</state>&#13;
+		<state id="44" name="else_espaco">&#13;
+			<x>1019.0</x>&#13;
+			<y>432.0</y>&#13;
+			<output>ELSE
+</output>&#13;
+		</state>&#13;
+		<state id="45" name="numero">&#13;
+			<x>1450.0</x>&#13;
+			<y>1288.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="46" name="numero_parenteses_esq">&#13;
+			<x>1881.0</x>&#13;
+			<y>1482.0</y>&#13;
+			<output>NUMBER
+LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="47" name="numero_parenteses_dir">&#13;
+			<x>1870.0</x>&#13;
+			<y>1414.0</y>&#13;
+			<output>NUMBER
+RPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="48" name="numero_colchetes_esq">&#13;
+			<x>1716.0</x>&#13;
+			<y>1427.0</y>&#13;
+			<output>NUMBER
+LBRACKETS
+</output>&#13;
+		</state>&#13;
+		<state id="49" name="numero_colchetes_dir">&#13;
+			<x>1714.0</x>&#13;
+			<y>1499.0</y>&#13;
+			<output>NUMBER
+RBRACKETS
+</output>&#13;
+		</state>&#13;
+		<state id="50" name="numero_chaves_esq">&#13;
+			<x>1033.0</x>&#13;
+			<y>1385.0</y>&#13;
+			<output>NUMBER
+LBRACES
+</output>&#13;
+		</state>&#13;
+		<state id="51" name="numero_chaves_dirs">&#13;
+			<x>1156.0</x>&#13;
+			<y>1416.0</y>&#13;
+			<output>NUMBER
+RBRACES
+</output>&#13;
+		</state>&#13;
+		<state id="52" name="numero_ponto_virgula">&#13;
+			<x>1269.0</x>&#13;
+			<y>1418.0</y>&#13;
+			<output>NUMBER
+SEMICOLON
+</output>&#13;
+		</state>&#13;
+		<state id="53" name="numero_virgula">&#13;
+			<x>1377.0</x>&#13;
+			<y>1418.0</y>&#13;
+			<output>NUMBER
+COMMA
+</output>&#13;
+		</state>&#13;
+		<state id="54" name="numero_espaco">&#13;
+			<x>1510.0</x>&#13;
+			<y>1227.0</y>&#13;
+			<output>NUMBER
+</output>&#13;
+		</state>&#13;
+		<state id="55" name="numero_adicao">&#13;
+			<x>1280.0</x>&#13;
+			<y>1478.0</y>&#13;
+			<output>NUMBER
+PLUS
+</output>&#13;
+		</state>&#13;
+		<state id="56" name="numero_subtracao">&#13;
+			<x>1375.0</x>&#13;
+			<y>1478.0</y>&#13;
+			<output>NUMBER
+MINUS
+</output>&#13;
+		</state>&#13;
+		<state id="57" name="numero_multiplicacao">&#13;
+			<x>1481.0</x>&#13;
+			<y>1480.0</y>&#13;
+			<output>NUMBER
+TIMES
+</output>&#13;
+		</state>&#13;
+		<state id="58" name="numero_divisao">&#13;
+			<x>1586.0</x>&#13;
+			<y>1491.0</y>&#13;
+			<output>NUMBER
+DIVIDE
+</output>&#13;
+		</state>&#13;
+		<state id="59" name="numero_maior">&#13;
+			<x>1570.0</x>&#13;
+			<y>1422.0</y>&#13;
+			<output>NUMBER
+GREATER
+</output>&#13;
+		</state>&#13;
+		<state id="60" name="numero_menor">&#13;
+			<x>1465.0</x>&#13;
+			<y>1415.0</y>&#13;
+			<output>NUMBER
+LESS
+</output>&#13;
+		</state>&#13;
+		<state id="61" name="numero_atribuicao">&#13;
+			<x>1164.0</x>&#13;
+			<y>1476.0</y>&#13;
+			<output>NUMBER
+ATTRIBUTION</output>&#13;
+		</state>&#13;
+		<state id="62" name="numero_exclamacao">&#13;
+			<x>1036.0</x>&#13;
+			<y>1475.0</y>&#13;
+			<output>NUMBER
+DIFFERENT
+</output>&#13;
+		</state>&#13;
+		<state id="63" name="adicao">&#13;
+			<x>1080.0</x>&#13;
+			<y>974.0</y>&#13;
+			<output>PLUS
+</output>&#13;
+		</state>&#13;
+		<state id="64" name="subtracao">&#13;
+			<x>994.0</x>&#13;
+			<y>886.0</y>&#13;
+			<output>MINUS
+</output>&#13;
+		</state>&#13;
+		<state id="65" name="multiplicacao">&#13;
+			<x>1112.0</x>&#13;
+			<y>1022.0</y>&#13;
+			<output>TIMES
+</output>&#13;
+		</state>&#13;
+		<state id="66" name="divisao">&#13;
+			<x>1044.0</x>&#13;
+			<y>933.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="67" name="maior">&#13;
+			<x>1087.0</x>&#13;
+			<y>782.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="68" name="maior_igual">&#13;
+			<x>977.0</x>&#13;
+			<y>762.0</y>&#13;
+			<output>GREATER_EQUAL
+</output>&#13;
+		</state>&#13;
+		<state id="69" name="menor">&#13;
+			<x>1069.0</x>&#13;
+			<y>837.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="70" name="menor_igual">&#13;
+			<x>895.0</x>&#13;
+			<y>817.0</y>&#13;
+			<output>LESS_EQUAL
+</output>&#13;
+		</state>&#13;
+		<state id="71" name="parenteses_esq">&#13;
+			<x>1155.0</x>&#13;
+			<y>1172.0</y>&#13;
+			<output>LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="72" name="parenteses_dir">&#13;
+			<x>1073.0</x>&#13;
+			<y>1173.0</y>&#13;
+			<output>RPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="73" name="colchetes_esq">&#13;
+			<x>1074.0</x>&#13;
+			<y>1112.0</y>&#13;
+			<output>LBRACKETS
+</output>&#13;
+		</state>&#13;
+		<state id="74" name="colchetes_dir">&#13;
+			<x>1148.0</x>&#13;
+			<y>1132.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="75" name="chaves_esq">&#13;
+			<x>1190.0</x>&#13;
+			<y>1210.0</y>&#13;
+			<output>LBRACES
+</output>&#13;
+		</state>&#13;
+		<state id="76" name="chaves_dirs">&#13;
+			<x>1252.0</x>&#13;
+			<y>1274.0</y>&#13;
+			<output>RBRACES
+</output>&#13;
+		</state>&#13;
+		<state id="77" name="virgula">&#13;
+			<x>1638.0</x>&#13;
+			<y>986.0</y>&#13;
+			<output>COMMA
+</output>&#13;
+		</state>&#13;
+		<state id="78" name="ponto_virgula">&#13;
+			<x>1513.0</x>&#13;
+			<y>1084.0</y>&#13;
+			<output>SEMICOLON
+</output>&#13;
+		</state>&#13;
+		<state id="79" name="ponto">&#13;
+			<x>1439.0</x>&#13;
+			<y>1125.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="80" name="atribuicao">&#13;
+			<x>1388.0</x>&#13;
+			<y>1075.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="81" name="igual">&#13;
+			<x>1355.0</x>&#13;
+			<y>1193.0</y>&#13;
+			<output>EQUALS
+</output>&#13;
+		</state>&#13;
+		<state id="82" name="atribuicao_fim">&#13;
+			<x>1306.0</x>&#13;
+			<y>1128.0</y>&#13;
+			<output>ATTRIBUTION
+</output>&#13;
+		</state>&#13;
+		<state id="83" name="exclamacao">&#13;
+			<x>1466.0</x>&#13;
+			<y>1008.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="84" name="exclamacao_igual">&#13;
+			<x>1576.0</x>&#13;
+			<y>1026.0</y>&#13;
+			<output>DIFFERENT
+</output>&#13;
+		</state>&#13;
+		<state id="85" name="void_parenteses_dir">&#13;
+			<x>2184.0</x>&#13;
+			<y>461.0</y>&#13;
+			<output>VOID
+RPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="86" name="void_ponto_virgula">&#13;
+			<x>2300.0</x>&#13;
+			<y>448.0</y>&#13;
+			<output>VOID
+SEMICOLON
+</output>&#13;
+		</state>&#13;
+		<state id="87" name="void_espaco">&#13;
+			<x>2231.0</x>&#13;
+			<y>524.0</y>&#13;
+			<output>VOID
+</output>&#13;
+		</state>&#13;
+		<state id="88" name="divisao_fim">&#13;
+			<x>951.0</x>&#13;
+			<y>942.0</y>&#13;
+			<output>DIVIDE
+</output>&#13;
+		</state>&#13;
+		<state id="89" name="maior_fim">&#13;
+			<x>982.0</x>&#13;
+			<y>689.0</y>&#13;
+			<output>GREATER
+</output>&#13;
+		</state>&#13;
+		<state id="90" name="menor_fim">&#13;
+			<x>857.0</x>&#13;
+			<y>878.0</y>&#13;
+			<output>LESS
+</output>&#13;
+		</state>&#13;
+		<state id="91" name="id_parenteses_esq">&#13;
+			<x>1655.0</x>&#13;
+			<y>207.0</y>&#13;
+			<output>ID
+LPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="92" name="id_parenteses_dir">&#13;
+			<x>1764.0</x>&#13;
+			<y>213.0</y>&#13;
+			<output>ID
+RPAREN
+</output>&#13;
+		</state>&#13;
+		<state id="93" name="id_colchetes_esq">&#13;
+			<x>1875.0</x>&#13;
+			<y>214.0</y>&#13;
+			<output>ID
+LBRACKETS
+</output>&#13;
+		</state>&#13;
+		<state id="94" name="id_colchetes_dir">&#13;
+			<x>1989.0</x>&#13;
+			<y>222.0</y>&#13;
+			<output>ID
+RB RACKETS
+</output>&#13;
+		</state>&#13;
+		<state id="95" name="id_chaves_esq">&#13;
+			<x>2101.0</x>&#13;
+			<y>222.0</y>&#13;
+			<output>ID
+LBRACES
+</output>&#13;
+		</state>&#13;
+		<state id="96" name="id_chaves_dirs">&#13;
+			<x>2209.0</x>&#13;
+			<y>223.0</y>&#13;
+			<output>ID
+RBRACES
+</output>&#13;
+		</state>&#13;
+		<state id="97" name="id_ponto_virgula">&#13;
+			<x>2409.0</x>&#13;
+			<y>225.0</y>&#13;
+			<output>ID
+SEMICOLON
+</output>&#13;
+		</state>&#13;
+		<state id="98" name="id_virgula">&#13;
+			<x>2311.0</x>&#13;
+			<y>212.0</y>&#13;
+			<output>ID
+COMMA
+</output>&#13;
+		</state>&#13;
+		<state id="99" name="id_espaco">&#13;
+			<x>2084.0</x>&#13;
+			<y>331.0</y>&#13;
+			<output>ID
+</output>&#13;
+		</state>&#13;
+		<state id="100" name="id_adicao">&#13;
+			<x>1647.0</x>&#13;
+			<y>336.0</y>&#13;
+			<output>ID
+PLUS
+</output>&#13;
+		</state>&#13;
+		<state id="101" name="id_subtracao">&#13;
+			<x>1754.0</x>&#13;
+			<y>337.0</y>&#13;
+			<output>ID
+MINUS
+</output>&#13;
+		</state>&#13;
+		<state id="102" name="id_multiplicacao">&#13;
+			<x>1852.0</x>&#13;
+			<y>342.0</y>&#13;
+			<output>ID
+TIMES
+</output>&#13;
+		</state>&#13;
+		<state id="103" name="id_divisao">&#13;
+			<x>1974.0</x>&#13;
+			<y>347.0</y>&#13;
+			<output>ID
+DIVIDE
+</output>&#13;
+		</state>&#13;
+		<state id="104" name="id_maior">&#13;
+			<x>1651.0</x>&#13;
+			<y>274.0</y>&#13;
+			<output>ID
+GREATER
+</output>&#13;
+		</state>&#13;
+		<state id="105" name="id_menor">&#13;
+			<x>1753.0</x>&#13;
+			<y>269.0</y>&#13;
+			<output>ID
+LESS
+</output>&#13;
+		</state>&#13;
+		<state id="106" name="id_atribuicao">&#13;
+			<x>1858.0</x>&#13;
+			<y>271.0</y>&#13;
+			<output>ID
+ATTRIBUTION
+</output>&#13;
+		</state>&#13;
+		<state id="107" name="id_exclamacao">&#13;
+			<x>1984.0</x>&#13;
+			<y>277.0</y>&#13;
+			<output>ID
+DIFFERENT
+</output>&#13;
+		</state>&#13;
+		<state id="108" name="else_chaves_dir">&#13;
+			<x>1096.0</x>&#13;
+			<y>419.0</y>&#13;
+			<output>ELSERBRACES</output>&#13;
+		</state>&#13;
+		<state id="109" name="comentario">&#13;
+			<x>984.0</x>&#13;
+			<y>995.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="110" name="comentario_multiplicacao">&#13;
+			<x>926.0</x>&#13;
+			<y>1112.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="111" name="comentario_fim">&#13;
+			<x>864.0</x>&#13;
+			<y>1006.0</y>&#13;
+			<output/>&#13;
+		</state>&#13;
+		<state id="112" name="return_parenteses_dir">&#13;
+			<x>1301.0</x>&#13;
+			<y>266.0</y>&#13;
+			<output>RETURNRPAREN</output>&#13;
+		</state>&#13;
+		<state id="113" name="if_parenteses_dir">&#13;
+			<x>1832.0</x>&#13;
+			<y>1051.0</y>&#13;
+			<output>IFRPAREN</output>&#13;
+		</state>&#13;
+		<!--The list of transitions.-->&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>27</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>75</to>&#13;
+			<read>{</read>&#13;
+			<transout>LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>66</from>&#13;
+			<to>88</to>&#13;
+			<read> </read>&#13;
+			<transout>DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>8</to>&#13;
+			<read> </read>&#13;
+			<transout>INT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>19</from>&#13;
+			<to>20</to>&#13;
+			<read>l</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>107</to>&#13;
+			<read>!</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>57</to>&#13;
+			<read>*</read>&#13;
+			<transout>NUMBER
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>11</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>16</to>&#13;
+			<read>(</read>&#13;
+			<transout>FLOAT
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>64</to>&#13;
+			<read>-</read>&#13;
+			<transout>MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>0</to>&#13;
+			<read> </read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>93</to>&#13;
+			<read>[</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>12</from>&#13;
+			<to>13</to>&#13;
+			<read>o</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>11</from>&#13;
+			<to>12</to>&#13;
+			<read>l</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>69</from>&#13;
+			<to>90</to>&#13;
+			<read> </read>&#13;
+			<transout>LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>21</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>27</from>&#13;
+			<to>28</to>&#13;
+			<read>(</read>&#13;
+			<transout>WHILE
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>44</to>&#13;
+			<read> </read>&#13;
+			<transout>ELSE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>13</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>39</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>7</to>&#13;
+			<read>)</read>&#13;
+			<transout>INT
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>63</to>&#13;
+			<read>+</read>&#13;
+			<transout>PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>52</to>&#13;
+			<read>;</read>&#13;
+			<transout>NUMBER
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>93</to>&#13;
+			<read>[</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>77</to>&#13;
+			<read>,</read>&#13;
+			<transout>COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>40</from>&#13;
+			<to>41</to>&#13;
+			<read>i</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>23</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>72</to>&#13;
+			<read>)</read>&#13;
+			<transout>RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>79</to>&#13;
+			<read>.</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>42</from>&#13;
+			<to>87</to>&#13;
+			<read> </read>&#13;
+			<transout>VOID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>39</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>107</to>&#13;
+			<read>!</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>71</to>&#13;
+			<read>(</read>&#13;
+			<transout>LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>12</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>59</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>NUMBER
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>39</from>&#13;
+			<to>40</to>&#13;
+			<read>o</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>40</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>109</from>&#13;
+			<to>110</to>&#13;
+			<read>*</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>19</to>&#13;
+			<read>e</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>42</from>&#13;
+			<to>85</to>&#13;
+			<read>(</read>&#13;
+			<transout>VOID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>38</to>&#13;
+			<read> </read>&#13;
+			<transout>RETURN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>30</to>&#13;
+			<read>r</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>36</to>&#13;
+			<read>(</read>&#13;
+			<transout>RETURN
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>5</from>&#13;
+			<to>10</to>&#13;
+			<read> </read>&#13;
+			<transout>IF
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>67</from>&#13;
+			<to>68</to>&#13;
+			<read>=</read>&#13;
+			<transout>GREATER_EQUAL
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>56</to>&#13;
+			<read>-</read>&#13;
+			<transout>NUMBER
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>66</from>&#13;
+			<to>109</to>&#13;
+			<read>*</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>45</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>112</to>&#13;
+			<read>)</read>&#13;
+			<transout>RETURNRPAREN</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>83</from>&#13;
+			<to>84</to>&#13;
+			<read>=</read>&#13;
+			<transout>DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>80</from>&#13;
+			<to>81</to>&#13;
+			<read> </read>&#13;
+			<transout>EQUALS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>80</to>&#13;
+			<read>=</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>5</from>&#13;
+			<to>113</to>&#13;
+			<read>)</read>&#13;
+			<transout>IFRPAREN</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>21</from>&#13;
+			<to>22</to>&#13;
+			<read>e</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>110</from>&#13;
+			<to>110</to>&#13;
+			<read>a-z 0-9 +,-,,;.{}[]()</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>80</from>&#13;
+			<to>82</to>&#13;
+			<read> </read>&#13;
+			<transout>ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>40</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>107</to>&#13;
+			<read>!</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>93</to>&#13;
+			<read>[</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>13</from>&#13;
+			<to>14</to>&#13;
+			<read>a</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>41</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>97</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>.</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>2</to>&#13;
+			<read>i</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>94</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>94</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>5</from>&#13;
+			<to>9</to>&#13;
+			<read>(</read>&#13;
+			<transout>IF
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>31</to>&#13;
+			<read>e</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>l</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>83</to>&#13;
+			<read>!</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>26</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>107</to>&#13;
+			<read>1</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>67</from>&#13;
+			<to>89</to>&#13;
+			<read> </read>&#13;
+			<transout>GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>73</to>&#13;
+			<read>[</read>&#13;
+			<transout>LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>23</from>&#13;
+			<to>24</to>&#13;
+			<read>h</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>19</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>93</to>&#13;
+			<read>[</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>108</to>&#13;
+			<read>}</read>&#13;
+			<transout>ELSERBRACES</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>65</to>&#13;
+			<read>*</read>&#13;
+			<transout>TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>24</from>&#13;
+			<to>25</to>&#13;
+			<read>i</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>24</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>37</to>&#13;
+			<read>;</read>&#13;
+			<transout>RETURN
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z -0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>3</to>&#13;
+			<read>n</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>s</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>42</from>&#13;
+			<to>86</to>&#13;
+			<read>;</read>&#13;
+			<transout>VOID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>32</to>&#13;
+			<read>t</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>27</from>&#13;
+			<to>29</to>&#13;
+			<read> </read>&#13;
+			<transout>WHILE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>69</from>&#13;
+			<to>70</to>&#13;
+			<read>=</read>&#13;
+			<transout>LESS_EQUAL
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>107</to>&#13;
+			<read>!</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>46</to>&#13;
+			<read>]</read>&#13;
+			<transout>NUMBER
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>93</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>93</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>58</to>&#13;
+			<read>/</read>&#13;
+			<transout>NUMBER
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>42</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>48</to>&#13;
+			<read>[</read>&#13;
+			<transout>NUMBER
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>5</to>&#13;
+			<read>f</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>26</from>&#13;
+			<to>27</to>&#13;
+			<read>e</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>17</to>&#13;
+			<read>)</read>&#13;
+			<transout>FLOAT
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>t</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>49</to>&#13;
+			<read>]</read>&#13;
+			<transout>NUMBER
+RBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>55</to>&#13;
+			<read>+</read>&#13;
+			<transout>NUMBER
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>53</to>&#13;
+			<read>.</read>&#13;
+			<transout>NUMBER
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>60</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>NUMBER
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>5</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>110</from>&#13;
+			<to>111</to>&#13;
+			<read>/</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>76</to>&#13;
+			<read>}</read>&#13;
+			<transout>RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>0</to>&#13;
+			<read>\n</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>54</to>&#13;
+			<read> </read>&#13;
+			<transout>NUMBER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>11</to>&#13;
+			<read>f</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>61</to>&#13;
+			<read>=</read>&#13;
+			<transout>NUMBER
+ATTRIBUTION</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>39</to>&#13;
+			<read>v</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>50</to>&#13;
+			<read>{</read>&#13;
+			<transout>NUMBER
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>3</from>&#13;
+			<to>4</to>&#13;
+			<read>t</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>67</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>74</to>&#13;
+			<read>]</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>6</to>&#13;
+			<read>(</read>&#13;
+			<transout>INT
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>78</to>&#13;
+			<read>;</read>&#13;
+			<transout>SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>51</to>&#13;
+			<read>}</read>&#13;
+			<transout>NUMBER
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>47</to>&#13;
+			<read>]</read>&#13;
+			<transout>NUMBER
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>3</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>66</to>&#13;
+			<read>/</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>45</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>62</to>&#13;
+			<read>!</read>&#13;
+			<transout>NUMBER
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>34</to>&#13;
+			<read>r</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>33</to>&#13;
+			<read>u</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>35</to>&#13;
+			<read>n</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>23</to>&#13;
+			<read>w</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>18</to>&#13;
+			<read> </read>&#13;
+			<transout>FLOAT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>43</to>&#13;
+			<read>{</read>&#13;
+			<transout>ELSE
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>69</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>41</from>&#13;
+			<to>42</to>&#13;
+			<read>d</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+	</automaton>&#13;
+</structure>

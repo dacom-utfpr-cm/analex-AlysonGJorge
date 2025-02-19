@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>&#13;
+	<type>moore</type>&#13;
+	<automaton>&#13;
+		<!--The list of states.-->&#13;
+
+<state id="0" name="q0">
+    <x>100.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="1" name="id">
+    <x>300.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="2" name="i">
+    <x>500.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="3" name="in">
+    <x>700.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="4" name="int">
+    <x>900.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="5" name="if">
+    <x>1100.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="6" name="int_parenteses_esq">
+    <x>1300.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="7" name="int_parenteses_dir">
+    <x>1500.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="8" name="int_espaco">
+    <x>1700.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="9" name="if_parenteses_esq">
+    <x>1900.0</x>
+    <y>150.0</y>
+    <output>a</output>
+</state>
+
+<state id="10" name="if_espaco">
+    <x>100.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="11" name="f">
+    <x>300.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="12" name="fl">
+    <x>500.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="13" name="flo">
+    <x>700.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="14" name="floa">
+    <x>900.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="15" name="float">
+    <x>1100.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="16" name="float_parenteses_esq">
+    <x>1300.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="17" name="float_parenteses_dir">
+    <x>1500.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="18" name="float_espaco">
+    <x>1700.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="19" name="e">
+    <x>1900.0</x>
+    <y>250.0</y>
+    <output>a</output>
+</state>
+
+<state id="20" name="el">
+    <x>100.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="21" name="els">
+    <x>300.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="22" name="else">
+    <x>500.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="23" name="w">
+    <x>700.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="24" name="wh">
+    <x>900.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="25" name="whi">
+    <x>1100.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="26" name="whil">
+    <x>1300.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="27" name="while">
+    <x>1500.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="28" name="while_parenteses_esq">
+    <x>1700.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="29" name="while_espaco">
+    <x>1900.0</x>
+    <y>350.0</y>
+    <output>a</output>
+</state>
+
+<state id="30" name="r">
+    <x>100.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="31" name="re">
+    <x>300.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="32" name="ret">
+    <x>500.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="33" name="retu">
+    <x>700.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="34" name="retur">
+    <x>900.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="35" name="return">
+    <x>1100.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="36" name="return_parenteses_esq">
+    <x>1300.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="37" name="return_ponto_virgula">
+    <x>1500.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="38" name="return_espaco">
+    <x>1700.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="39" name="v">
+    <x>1900.0</x>
+    <y>450.0</y>
+    <output>a</output>
+</state>
+
+<state id="40" name="vo">
+    <x>100.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="41" name="voi">
+    <x>300.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="42" name="void">
+    <x>500.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="43" name="else_chaves_esq">
+    <x>700.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="44" name="else_espaco">
+    <x>900.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="45" name="numero">
+    <x>1100.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="46" name="numero_parenteses_esq">
+    <x>1300.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="47" name="numero_parenteses_dir">
+    <x>1500.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="48" name="numero_colchetes_esq">
+    <x>1700.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="49" name="numero_colchetes_dir">
+    <x>1900.0</x>
+    <y>550.0</y>
+    <output>a</output>
+</state>
+
+<state id="50" name="numero_chaves_esq">
+    <x>100.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="51" name="numero_chaves_dirs">
+    <x>300.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="52" name="numero_ponto_virgula">
+    <x>500.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="53" name="numero_virgula">
+    <x>700.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="54" name="numero_espaco">
+    <x>900.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="55" name="numero_adicao">
+    <x>1100.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="56" name="numero_subtracao">
+    <x>1300.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="57" name="numero_multiplicacao">
+    <x>1500.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="58" name="numero_divisao">
+    <x>1700.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="59" name="numero_maior">
+    <x>1900.0</x>
+    <y>650.0</y>
+    <output>a</output>
+</state>
+
+<state id="60" name="numero_menor">
+    <x>100.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="61" name="numero_atribuicao">
+    <x>300.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="62" name="numero_exclamacao">
+    <x>500.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="63" name="adicao">
+    <x>700.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="64" name="subtracao">
+    <x>900.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="65" name="multiplicacao">
+    <x>1100.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="66" name="divisao">
+    <x>1300.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="67" name="maior">
+    <x>1500.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="68" name="maior_igual">
+    <x>1700.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="69" name="menor">
+    <x>1900.0</x>
+    <y>750.0</y>
+    <output>a</output>
+</state>
+
+<state id="70" name="menor_igual">
+    <x>100.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="71" name="parenteses_esq">
+    <x>300.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="72" name="parenteses_dir">
+    <x>500.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="73" name="colchetes_esq">
+    <x>700.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="74" name="colchetes_dir">
+    <x>900.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="75" name="chaves_esq">
+    <x>1100.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="76" name="chaves_dirs">
+    <x>1300.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="77" name="virgula">
+    <x>1500.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="78" name="ponto_virgula">
+    <x>1700.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="79" name="ponto">
+    <x>1900.0</x>
+    <y>850.0</y>
+    <output>a</output>
+</state>
+
+<state id="80" name="atribuicao">
+    <x>100.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="81" name="igual">
+    <x>300.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="82" name="atribuicao_finalizado">
+    <x>500.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="83" name="exclamacao">
+    <x>700.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="84" name="exclamacao_igual">
+    <x>900.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="85" name="void_parenteses_dir">
+    <x>1100.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="86" name="void_ponto_virgula">
+    <x>1300.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="87" name="void_espaco">
+    <x>1500.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="88" name="divisao_finalizado">
+    <x>1700.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="89" name="divisao_equal">
+    <x>1900.0</x>
+    <y>950.0</y>
+    <output>a</output>
+</state>
+
+<state id="90" name="divisao_id">
+    <x>100.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="91" name="divisao_numero">
+    <x>300.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="92" name="maior_finalizado">
+    <x>500.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="93" name="menor_finalizado">
+    <x>700.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="94" name="id_parenteses_esq">
+    <x>900.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="95" name="id_parenteses_dir">
+    <x>1100.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="96" name="id_colchetes_esq">
+    <x>1300.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="97" name="id_colchetes_dir">
+    <x>1500.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="98" name="id_chaves_esq">
+    <x>1700.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="99" name="id_chaves_dirs">
+    <x>1900.0</x>
+    <y>1050.0</y>
+    <output>a</output>
+</state>
+
+<state id="100" name="id_ponto_virgula">
+    <x>100.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="101" name="id_virgula">
+    <x>300.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="102" name="id_espaco">
+    <x>500.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="103" name="id_adicao">
+    <x>700.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="104" name="id_subtracao">
+    <x>900.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="105" name="id_multiplicacao">
+    <x>1100.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="106" name="id_divisao">
+    <x>1300.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="107" name="id_maior">
+    <x>1500.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="108" name="id_menor">
+    <x>1700.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="109" name="id_atribuicao">
+    <x>1900.0</x>
+    <y>1150.0</y>
+    <output>a</output>
+</state>
+
+<state id="110" name="id_exclamacao">
+    <x>100.0</x>
+    <y>1250.0</y>
+    <output>a</output>
+</state>
+
+<state id="111" name="divisao_multiplicacao">
+    <x>300.0</x>
+    <y>1250.0</y>
+    <output>a</output>
+</state>
+
+<state id="112" name="comentario">
+    <x>500.0</x>
+    <y>1250.0</y>
+    <output>a</output>
+</state>
+
+<state id="113" name="comentario_multiplicacao">
+    <x>700.0</x>
+    <y>1250.0</y>
+    <output>a</output>
+</state>
+
+<state id="114" name="comentario_finalizado">
+    <x>900.0</x>
+    <y>1250.0</y>
+    <output>a</output>
+</state>
+
+		
+	</automaton>&#13;
+</structure>

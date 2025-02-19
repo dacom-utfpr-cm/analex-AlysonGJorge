@@ -106,7 +106,7 @@ tabelaSaidas = {
     'adicao' : 'PLUS\n',
     'subtracao' : 'MINUS\n',
     'multiplicacao' : 'TIMES\n',
-    'divisao' : 'DIVIDE\n',
+    'divisao' : '',
     'divisao_multiplicacao' : '',
     'comentario' : '',
     'comentario_multiplicacao' : '',

@@ -5,6 +5,7 @@
 		<state id="0" name="q0">&#13;
 			<x>1307.0</x>&#13;
 			<y>931.0</y>&#13;
+			<initial/>&#13;
 			<output/>&#13;
 		</state>&#13;
 		<state id="1" name="id">&#13;
@@ -686,7 +687,69 @@ DIFFERENT
 		</state>&#13;
 		<!--The list of transitions.-->&#13;
 		<transition>&#13;
-			<from>34</from>&#13;
+			<from>1</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>27</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>75</to>&#13;
+			<read>{</read>&#13;
+			<transout>LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>66</from>&#13;
+			<to>88</to>&#13;
+			<read> </read>&#13;
+			<transout>DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>8</to>&#13;
+			<read> </read>&#13;
+			<transout>INT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>19</from>&#13;
+			<to>20</to>&#13;
+			<read>l</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
 			<to>92</to>&#13;
 			<read>)</read>&#13;
 			<transout>ID
@@ -694,200 +757,11 @@ RPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>0</from>&#13;
-			<to>83</to>&#13;
+			<from>1</from>&#13;
+			<to>107</to>&#13;
 			<read>!</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>13</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>15</from>&#13;
-			<to>18</to>&#13;
-			<read> </read>&#13;
-			<transout>FLOAT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>62</to>&#13;
-			<read>!</read>&#13;
-			<transout>NUMBER
+			<transout>ID
 DIFFERENT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>93</to>&#13;
-			<read>[</read>&#13;
-			<transout>ID
-LBRACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>15</from>&#13;
-			<to>16</to>&#13;
-			<read>(</read>&#13;
-			<transout>FLOAT
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>0</to>&#13;
-			<read> </read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>93</to>&#13;
-			<read>[</read>&#13;
-			<transout>ID
-LBRACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>94</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RB RACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>39</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>13</from>&#13;
-			<to>14</to>&#13;
-			<read>a</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>93</to>&#13;
-			<read>[</read>&#13;
-			<transout>ID
-LBRACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>94</to>&#13;
-			<read>]</read>&#13;
-			<transout>ID
-RB RACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>91</to>&#13;
-			<read>(</read>&#13;
-			<transout>ID
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>105</to>&#13;
-			<read>&lt;</read>&#13;
-			<transout>ID
-LESS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>69</from>&#13;
-			<to>90</to>&#13;
-			<read> </read>&#13;
-			<transout>LESS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>98</to>&#13;
-			<read>,</read>&#13;
-			<transout>ID
-COMMA
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>54</to>&#13;
-			<read> </read>&#13;
-			<transout>NUMBER
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>32</to>&#13;
-			<read>t</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>14</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>22</from>&#13;
-			<to>108</to>&#13;
-			<read>}</read>&#13;
-			<transout>ELSERBRACES</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>2</to>&#13;
-			<read>i</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>98</to>&#13;
-			<read>,</read>&#13;
-			<transout>ID
-COMMA
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>96</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>105</to>&#13;
-			<read>&lt;</read>&#13;
-			<transout>ID
-LESS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
@@ -899,55 +773,13 @@ TIMES
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>3</from>&#13;
+			<from>11</from>&#13;
 			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
+			<read>a-z</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>35</from>&#13;
-			<to>112</to>&#13;
-			<read>)</read>&#13;
-			<transout>RETURNRPAREN</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>65</to>&#13;
-			<read>*</read>&#13;
-			<transout>TIMES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>96</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>56</to>&#13;
-			<read>-</read>&#13;
-			<transout>NUMBER
-MINUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>69</to>&#13;
-			<read>&lt;</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>75</to>&#13;
-			<read>{</read>&#13;
-			<transout>LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
+			<from>32</from>&#13;
 			<to>105</to>&#13;
 			<read>&lt;</read>&#13;
 			<transout>ID
@@ -955,18 +787,10 @@ LESS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>45</from>&#13;
-			<to>47</to>&#13;
-			<read>]</read>&#13;
-			<transout>NUMBER
-RPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>46</to>&#13;
-			<read>]</read>&#13;
-			<transout>NUMBER
+			<from>15</from>&#13;
+			<to>16</to>&#13;
+			<read>(</read>&#13;
+			<transout>FLOAT
 LPAREN
 </transout>&#13;
 		</transition>&#13;
@@ -978,494 +802,45 @@ LPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>41</from>&#13;
-			<to>42</to>&#13;
-			<read>d</read>&#13;
+			<from>4</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>30</from>&#13;
-			<to>98</to>&#13;
-			<read>,</read>&#13;
+			<from>31</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
 			<transout>ID
-COMMA
+RB RACKETS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>4</from>&#13;
-			<to>8</to>&#13;
+			<from>0</from>&#13;
+			<to>0</to>&#13;
 			<read> </read>&#13;
-			<transout>INT
-</transout>&#13;
+			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>32</from>&#13;
-			<to>91</to>&#13;
-			<read>(</read>&#13;
+			<from>31</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
 			<transout>ID
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>15</from>&#13;
-			<to>17</to>&#13;
-			<read>)</read>&#13;
-			<transout>FLOAT
-RPAREN
+TIMES
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>1</from>&#13;
-			<to>96</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>66</from>&#13;
-			<to>109</to>&#13;
-			<read>*</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>67</to>&#13;
-			<read>&gt;</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>34</from>&#13;
 			<to>93</to>&#13;
-			<read>{</read>&#13;
+			<read>[</read>&#13;
 			<transout>ID
 LBRACKETS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>1</from>&#13;
-			<to>106</to>&#13;
-			<read>=</read>&#13;
-			<transout>ID
-ATTRIBUTION
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>19</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>92</to>&#13;
-			<read>)</read>&#13;
-			<transout>ID
-RPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>104</to>&#13;
-			<read>&gt;</read>&#13;
-			<transout>ID
-GREATER
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>50</to>&#13;
-			<read>{</read>&#13;
-			<transout>NUMBER
-LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>92</to>&#13;
-			<read>)</read>&#13;
-			<transout>ID
-RPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>107</to>&#13;
-			<read>!</read>&#13;
-			<transout>ID
-DIFFERENT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>106</to>&#13;
-			<read>=</read>&#13;
-			<transout>ID
-ATTRIBUTION
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>104</to>&#13;
-			<read>&gt;</read>&#13;
-			<transout>ID
-GREATER
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>23</to>&#13;
-			<read>w</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>41</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>34</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>106</to>&#13;
-			<read>=</read>&#13;
-			<transout>ID
-ATTRIBUTION
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>42</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>21</from>&#13;
-			<to>22</to>&#13;
-			<read>e</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>21</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>40</from>&#13;
-			<to>91</to>&#13;
-			<read>(</read>&#13;
-			<transout>ID
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>5</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>35</from>&#13;
-			<to>37</to>&#13;
-			<read>;</read>&#13;
-			<transout>RETURN
-SEMICOLON
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>107</to>&#13;
-			<read>!</read>&#13;
-			<transout>ID
-DIFFERENT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>4</from>&#13;
-			<to>6</to>&#13;
-			<read>(</read>&#13;
-			<transout>INT
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>60</to>&#13;
-			<read>&lt;</read>&#13;
-			<transout>NUMBER
-LESS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>23</from>&#13;
-			<to>24</to>&#13;
-			<read>h</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>92</to>&#13;
-			<read>)</read>&#13;
-			<transout>ID
-RPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>104</to>&#13;
-			<read>&gt;</read>&#13;
-			<transout>ID
-GREATER
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>109</from>&#13;
-			<to>110</to>&#13;
-			<read>*</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>42</from>&#13;
-			<to>86</to>&#13;
-			<read>;</read>&#13;
-			<transout>VOID
-SEMICOLON
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>34</from>&#13;
-			<to>98</to>&#13;
-			<read>,</read>&#13;
-			<transout>ID
-COMMA
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>100</to>&#13;
-			<read>+</read>&#13;
-			<transout>ID
-PLUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>95</to>&#13;
-			<read>{</read>&#13;
-			<transout>ID
-LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>101</to>&#13;
-			<read>-</read>&#13;
-			<transout>ID
-MINUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>63</to>&#13;
-			<read>+</read>&#13;
-			<transout>PLUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>1</to>&#13;
-			<read>0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>110</from>&#13;
-			<to>110</to>&#13;
-			<read>a-z 0-9 +,-,,;.{}[]()</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>102</to>&#13;
-			<read>*</read>&#13;
-			<transout>ID
-TIMES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>55</to>&#13;
-			<read>+</read>&#13;
-			<transout>NUMBER
-PLUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>97</to>&#13;
-			<read>,</read>&#13;
-			<transout>ID
-SEMICOLON
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>11</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>103</to>&#13;
-			<read>/</read>&#13;
-			<transout>ID
-DIVIDE
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>99</to>&#13;
-			<read> </read>&#13;
-			<transout>ID
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>25</from>&#13;
-			<to>26</to>&#13;
-			<read>l</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>24</from>&#13;
-			<to>25</to>&#13;
-			<read>i</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>103</to>&#13;
-			<read>/</read>&#13;
-			<transout>ID
-DIVIDE
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>35</from>&#13;
-			<to>1</to>&#13;
-			<read>0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>99</to>&#13;
-			<read> </read>&#13;
-			<transout>ID
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>67</from>&#13;
-			<to>89</to>&#13;
-			<read> </read>&#13;
-			<transout>GREATER
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>26</from>&#13;
-			<to>27</to>&#13;
-			<read>e</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>100</to>&#13;
-			<read>+</read>&#13;
-			<transout>ID
-PLUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>102</to>&#13;
-			<read>*</read>&#13;
-			<transout>ID
-TIMES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>34</from>&#13;
-			<to>96</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>1</to>&#13;
-			<read>0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>100</to>&#13;
-			<read>+</read>&#13;
-			<transout>ID
-PLUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>101</to>&#13;
-			<read>-</read>&#13;
-			<transout>ID
-MINUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>34</to>&#13;
-			<read>r</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>95</to>&#13;
-			<read>{</read>&#13;
-			<transout>ID
-LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>97</to>&#13;
-			<read>;</read>&#13;
-			<transout>ID
-SEMICOLON
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>51</to>&#13;
-			<read>}</read>&#13;
-			<transout>NUMBER
-RBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>11</to>&#13;
-			<read>f</read>&#13;
+			<from>12</from>&#13;
+			<to>13</to>&#13;
+			<read>o</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
@@ -1475,146 +850,40 @@ RBRACES
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>31</from>&#13;
-			<to>93</to>&#13;
-			<read>[</read>&#13;
-			<transout>ID
-LBRACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>94</to>&#13;
-			<read>]</read>&#13;
-			<transout>ID
-RB RACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>80</from>&#13;
-			<to>81</to>&#13;
-			<read> </read>&#13;
-			<transout>EQUALS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>15</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>93</to>&#13;
-			<read>{</read>&#13;
-			<transout>ID
-LBRACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>94</to>&#13;
-			<read>]</read>&#13;
-			<transout>ID
-RB RACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>35</from>&#13;
-			<to>1</to>&#13;
-			<read>.</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>27</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>53</to>&#13;
-			<read>.</read>&#13;
-			<transout>NUMBER
-COMMA
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
 			<from>30</from>&#13;
-			<to>94</to>&#13;
-			<read>]</read>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
 			<transout>ID
-RB RACKETS
+MINUS
 </transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>25</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>40</from>&#13;
-			<to>41</to>&#13;
-			<read>i</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>14</from>&#13;
-			<to>15</to>&#13;
-			<read>t</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>77</to>&#13;
-			<read>,</read>&#13;
-			<transout>COMMA
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>67</from>&#13;
-			<to>68</to>&#13;
-			<read>=</read>&#13;
-			<transout>GREATER_EQUAL
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>35</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>5</from>&#13;
-			<to>113</to>&#13;
-			<read>)</read>&#13;
-			<transout>IFRPAREN</transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>31</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>35</from>&#13;
+			<from>69</from>&#13;
+			<to>90</to>&#13;
+			<read> </read>&#13;
+			<transout>LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>21</from>&#13;
 			<to>1</to>&#13;
 			<read>a-z 0-9</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>69</from>&#13;
-			<to>70</to>&#13;
-			<read>=</read>&#13;
-			<transout>LESS_EQUAL
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>72</to>&#13;
-			<read>)</read>&#13;
-			<transout>RPAREN
+			<from>27</from>&#13;
+			<to>28</to>&#13;
+			<read>(</read>&#13;
+			<transout>WHILE
+LPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
@@ -1625,33 +894,42 @@ RB RACKETS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>20</from>&#13;
-			<to>21</to>&#13;
-			<read>s</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>2</from>&#13;
-			<to>5</to>&#13;
-			<read>f</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>34</from>&#13;
+			<from>13</from>&#13;
 			<to>1</to>&#13;
-			<read>0-9</read>&#13;
+			<read>az09</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>31</from>&#13;
-			<to>96</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RBRACES
+			<from>39</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>7</to>&#13;
+			<read>)</read>&#13;
+			<transout>INT
+RPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>32</from>&#13;
+			<from>0</from>&#13;
+			<to>63</to>&#13;
+			<read>+</read>&#13;
+			<transout>PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
 			<to>105</to>&#13;
 			<read>&lt;</read>&#13;
 			<transout>ID
@@ -1659,17 +937,141 @@ LESS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>80</from>&#13;
-			<to>82</to>&#13;
-			<read> </read>&#13;
-			<transout>ATTRIBUTION
+			<from>45</from>&#13;
+			<to>52</to>&#13;
+			<read>;</read>&#13;
+			<transout>NUMBER
+SEMICOLON
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>35</from>&#13;
-			<to>38</to>&#13;
+			<from>31</from>&#13;
+			<to>93</to>&#13;
+			<read>[</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>77</to>&#13;
+			<read>,</read>&#13;
+			<transout>COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>40</from>&#13;
+			<to>41</to>&#13;
+			<read>i</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>23</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>99</to>&#13;
 			<read> </read>&#13;
-			<transout>RETURN
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>72</to>&#13;
+			<read>)</read>&#13;
+			<transout>RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>79</to>&#13;
+			<read>.</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>42</from>&#13;
+			<to>87</to>&#13;
+			<read> </read>&#13;
+			<transout>VOID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>39</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>107</to>&#13;
+			<read>!</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
@@ -1680,9 +1082,111 @@ LESS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>0</from>&#13;
-			<to>45</to>&#13;
+			<from>12</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>1</to>&#13;
 			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>59</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>NUMBER
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>39</from>&#13;
+			<to>40</to>&#13;
+			<read>o</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>40</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>109</from>&#13;
+			<to>110</to>&#13;
+			<read>*</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
@@ -1700,82 +1204,6 @@ RPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>110</from>&#13;
-			<to>111</to>&#13;
-			<read>/</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>91</to>&#13;
-			<read>(</read>&#13;
-			<transout>ID
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>39</from>&#13;
-			<to>91</to>&#13;
-			<read>(</read>&#13;
-			<transout>ID
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>98</to>&#13;
-			<read>,</read>&#13;
-			<transout>ID
-COMMA
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>5</from>&#13;
-			<to>9</to>&#13;
-			<read>(</read>&#13;
-			<transout>IF
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>98</to>&#13;
-			<read>,</read>&#13;
-			<transout>ID
-COMMA
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>34</from>&#13;
-			<to>97</to>&#13;
-			<read>;</read>&#13;
-			<transout>ID
-SEMICOLON
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>33</to>&#13;
-			<read>u</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>34</from>&#13;
-			<to>95</to>&#13;
-			<read>{</read>&#13;
-			<transout>ID
-LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>58</to>&#13;
-			<read>/</read>&#13;
-			<transout>NUMBER
-DIVIDE
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
 			<from>33</from>&#13;
 			<to>91</to>&#13;
 			<read>(</read>&#13;
@@ -1784,54 +1212,33 @@ LPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>45</from>&#13;
-			<to>48</to>&#13;
-			<read>[</read>&#13;
-			<transout>NUMBER
-LBRACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>105</to>&#13;
-			<read>&lt;</read>&#13;
-			<transout>ID
-LESS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>96</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>91</to>&#13;
-			<read>(</read>&#13;
-			<transout>ID
-LPAREN
+			<from>35</from>&#13;
+			<to>38</to>&#13;
+			<read> </read>&#13;
+			<transout>RETURN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>0</from>&#13;
-			<to>80</to>&#13;
-			<read>=</read>&#13;
+			<to>30</to>&#13;
+			<read>r</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>19</from>&#13;
-			<to>20</to>&#13;
-			<read>l</read>&#13;
-			<transout/>&#13;
+			<from>35</from>&#13;
+			<to>36</to>&#13;
+			<read>(</read>&#13;
+			<transout>RETURN
+LPAREN
+</transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>23</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
+			<from>30</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>5</from>&#13;
@@ -1841,86 +1248,17 @@ LPAREN
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
+			<from>67</from>&#13;
+			<to>68</to>&#13;
+			<read>=</read>&#13;
+			<transout>GREATER_EQUAL
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
 			<from>30</from>&#13;
-			<to>31</to>&#13;
-			<read>e</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>45</from>&#13;
-			<to>59</to>&#13;
-			<read>&gt;</read>&#13;
-			<transout>NUMBER
-GREATER
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>74</to>&#13;
-			<read>]</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>32</from>&#13;
-			<to>106</to>&#13;
-			<read>=</read>&#13;
-			<transout>ID
-ATTRIBUTION
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>107</to>&#13;
-			<read>!</read>&#13;
-			<transout>ID
-DIFFERENT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>83</from>&#13;
-			<to>84</to>&#13;
-			<read>=</read>&#13;
-			<transout>DIFFERENT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>2</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>66</to>&#13;
-			<read>/</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>0</to>&#13;
-			<read>\n</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>4</from>&#13;
-			<to>7</to>&#13;
-			<read>)</read>&#13;
-			<transout>INT
-RPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>78</to>&#13;
-			<read>;</read>&#13;
-			<transout>SEMICOLON
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>22</from>&#13;
-			<to>43</to>&#13;
+			<to>95</to>&#13;
 			<read>{</read>&#13;
-			<transout>ELSE
+			<transout>ID
 LBRACES
 </transout>&#13;
 		</transition>&#13;
@@ -1933,10 +1271,311 @@ GREATER
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>39</from>&#13;
-			<to>40</to>&#13;
-			<read>o</read>&#13;
+			<from>45</from>&#13;
+			<to>56</to>&#13;
+			<read>-</read>&#13;
+			<transout>NUMBER
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>66</from>&#13;
+			<to>109</to>&#13;
+			<read>*</read>&#13;
 			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>45</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>112</to>&#13;
+			<read>)</read>&#13;
+			<transout>RETURNRPAREN</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>83</from>&#13;
+			<to>84</to>&#13;
+			<read>=</read>&#13;
+			<transout>DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>80</from>&#13;
+			<to>81</to>&#13;
+			<read> </read>&#13;
+			<transout>EQUALS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>80</to>&#13;
+			<read>=</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>5</from>&#13;
+			<to>113</to>&#13;
+			<read>)</read>&#13;
+			<transout>IFRPAREN</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>21</from>&#13;
+			<to>22</to>&#13;
+			<read>e</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>110</from>&#13;
+			<to>110</to>&#13;
+			<read>a-z 0-9 +,-,,;.{}[]()</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>80</from>&#13;
+			<to>82</to>&#13;
+			<read> </read>&#13;
+			<transout>ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>40</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>107</to>&#13;
+			<read>!</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>93</to>&#13;
+			<read>[</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>13</from>&#13;
+			<to>14</to>&#13;
+			<read>a</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>41</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>97</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>.</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>2</to>&#13;
+			<read>i</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>94</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>94</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>5</from>&#13;
+			<to>9</to>&#13;
+			<read>(</read>&#13;
+			<transout>IF
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>31</to>&#13;
+			<read>e</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>25</from>&#13;
+			<to>26</to>&#13;
+			<read>l</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>83</to>&#13;
+			<read>!</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>26</from>&#13;
@@ -1945,7 +1584,406 @@ GREATER
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
+			<from>30</from>&#13;
+			<to>107</to>&#13;
+			<read>1</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>67</from>&#13;
+			<to>89</to>&#13;
+			<read> </read>&#13;
+			<transout>GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>73</to>&#13;
+			<read>[</read>&#13;
+			<transout>LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>1</to>&#13;
+			<read>0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>23</from>&#13;
+			<to>24</to>&#13;
+			<read>h</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>19</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
 			<from>32</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>93</to>&#13;
+			<read>[</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>108</to>&#13;
+			<read>}</read>&#13;
+			<transout>ELSERBRACES</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>65</to>&#13;
+			<read>*</read>&#13;
+			<transout>TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>24</from>&#13;
+			<to>25</to>&#13;
+			<read>i</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>24</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>92</to>&#13;
+			<read>)</read>&#13;
+			<transout>ID
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>35</from>&#13;
+			<to>37</to>&#13;
+			<read>;</read>&#13;
+			<transout>RETURN
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z -0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>3</to>&#13;
+			<read>n</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>20</from>&#13;
+			<to>21</to>&#13;
+			<read>s</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>101</to>&#13;
+			<read>-</read>&#13;
+			<transout>ID
+MINUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>42</from>&#13;
+			<to>86</to>&#13;
+			<read>;</read>&#13;
+			<transout>VOID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>32</to>&#13;
+			<read>t</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>27</from>&#13;
+			<to>29</to>&#13;
+			<read> </read>&#13;
+			<transout>WHILE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>69</from>&#13;
+			<to>70</to>&#13;
+			<read>=</read>&#13;
+			<transout>LESS_EQUAL
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>102</to>&#13;
+			<read>*</read>&#13;
+			<transout>ID
+TIMES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>107</to>&#13;
+			<read>!</read>&#13;
+			<transout>ID
+DIFFERENT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>46</to>&#13;
+			<read>]</read>&#13;
+			<transout>NUMBER
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
+			<transout>ID
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>93</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>93</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>58</to>&#13;
+			<read>/</read>&#13;
+			<transout>NUMBER
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>42</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>34</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>48</to>&#13;
+			<read>[</read>&#13;
+			<transout>NUMBER
+LBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>91</to>&#13;
+			<read>(</read>&#13;
+			<transout>ID
+LPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>98</to>&#13;
+			<read>,</read>&#13;
+			<transout>ID
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>2</from>&#13;
+			<to>5</to>&#13;
+			<read>f</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>26</from>&#13;
+			<to>27</to>&#13;
+			<read>e</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>17</to>&#13;
+			<read>)</read>&#13;
+			<transout>FLOAT
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>14</from>&#13;
+			<to>15</to>&#13;
+			<read>t</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
+			<to>94</to>&#13;
+			<read>]</read>&#13;
+			<transout>ID
+RB RACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>49</to>&#13;
+			<read>]</read>&#13;
+			<transout>NUMBER
+RBRACKETS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>55</to>&#13;
+			<read>+</read>&#13;
+			<transout>NUMBER
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>53</to>&#13;
+			<read>.</read>&#13;
+			<transout>NUMBER
+COMMA
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>30</from>&#13;
 			<to>92</to>&#13;
 			<read>)</read>&#13;
 			<transout>ID
@@ -1959,91 +1997,24 @@ RPAREN
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>12</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>107</to>&#13;
-			<read>!</read>&#13;
-			<transout>ID
-DIFFERENT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>92</to>&#13;
-			<read>)</read>&#13;
-			<transout>ID
-RPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>24</from>&#13;
-			<to>1</to>&#13;
-			<read>az09</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>31</from>&#13;
-			<to>104</to>&#13;
-			<read>&gt;</read>&#13;
-			<transout>ID
-GREATER
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>107</to>&#13;
-			<read>1</read>&#13;
-			<transout>ID
-DIFFERENT
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>2</from>&#13;
-			<to>3</to>&#13;
-			<read>n</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>76</to>&#13;
-			<read>}</read>&#13;
-			<transout>RBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
 			<from>45</from>&#13;
-			<to>49</to>&#13;
-			<read>]</read>&#13;
+			<to>60</to>&#13;
+			<read>&lt;</read>&#13;
 			<transout>NUMBER
-RBRACKETS
+LESS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>31</from>&#13;
-			<to>106</to>&#13;
-			<read>=</read>&#13;
-			<transout>ID
-ATTRIBUTION
-</transout>&#13;
+			<from>5</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>34</from>&#13;
-			<to>94</to>&#13;
-			<read>}</read>&#13;
-			<transout>ID
-RB RACKETS
-</transout>&#13;
+			<from>110</from>&#13;
+			<to>111</to>&#13;
+			<read>/</read>&#13;
+			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>30</from>&#13;
@@ -2055,18 +2026,61 @@ DIVIDE
 		</transition>&#13;
 		<transition>&#13;
 			<from>30</from>&#13;
-			<to>99</to>&#13;
-			<read> </read>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
 			<transout>ID
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>105</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout>ID
+LESS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>76</to>&#13;
+			<read>}</read>&#13;
+			<transout>RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>33</from>&#13;
+			<to>106</to>&#13;
+			<read>=</read>&#13;
+			<transout>ID
+ATTRIBUTION
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>0</to>&#13;
+			<read>\n</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>45</from>&#13;
-			<to>52</to>&#13;
-			<read>;</read>&#13;
+			<to>54</to>&#13;
+			<read> </read>&#13;
 			<transout>NUMBER
-SEMICOLON
 </transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>11</to>&#13;
+			<read>f</read>&#13;
+			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>45</from>&#13;
@@ -2077,51 +2091,102 @@ ATTRIBUTION</transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>33</from>&#13;
-			<to>102</to>&#13;
-			<read>*</read>&#13;
+			<to>99</to>&#13;
+			<read> </read>&#13;
 			<transout>ID
-TIMES
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>34</from>&#13;
-			<to>35</to>&#13;
-			<read>n</read>&#13;
+			<from>1</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>1</to>&#13;
+			<read>az09</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>33</from>&#13;
+			<from>0</from>&#13;
+			<to>39</to>&#13;
+			<read>v</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>100</to>&#13;
+			<read>+</read>&#13;
+			<transout>ID
+PLUS
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>50</to>&#13;
+			<read>{</read>&#13;
+			<transout>NUMBER
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>3</from>&#13;
+			<to>4</to>&#13;
+			<read>t</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>67</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>31</from>&#13;
 			<to>1</to>&#13;
 			<read>0-9</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>30</from>&#13;
-			<to>101</to>&#13;
-			<read>-</read>&#13;
-			<transout>ID
-MINUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>22</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z -0-9</read>&#13;
+			<from>0</from>&#13;
+			<to>74</to>&#13;
+			<read>]</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>27</from>&#13;
-			<to>28</to>&#13;
+			<from>31</from>&#13;
+			<to>95</to>&#13;
+			<read>{</read>&#13;
+			<transout>ID
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>96</to>&#13;
+			<read>}</read>&#13;
+			<transout>ID
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>4</from>&#13;
+			<to>6</to>&#13;
 			<read>(</read>&#13;
-			<transout>WHILE
+			<transout>INT
 LPAREN
 </transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>79</to>&#13;
-			<read>.</read>&#13;
-			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>31</from>&#13;
@@ -2132,7 +2197,44 @@ PLUS
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>30</from>&#13;
+			<from>0</from>&#13;
+			<to>78</to>&#13;
+			<read>;</read>&#13;
+			<transout>SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>51</to>&#13;
+			<read>}</read>&#13;
+			<transout>NUMBER
+RBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>47</to>&#13;
+			<read>]</read>&#13;
+			<transout>NUMBER
+RPAREN
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>3</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z 0-9</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
+			<to>103</to>&#13;
+			<read>/</read>&#13;
+			<transout>ID
+DIVIDE
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>32</from>&#13;
 			<to>97</to>&#13;
 			<read>;</read>&#13;
 			<transout>ID
@@ -2140,9 +2242,9 @@ SEMICOLON
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>3</from>&#13;
-			<to>4</to>&#13;
-			<read>t</read>&#13;
+			<from>0</from>&#13;
+			<to>66</to>&#13;
+			<read>/</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
@@ -2158,194 +2260,93 @@ SEMICOLON
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>40</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>95</to>&#13;
-			<read>{</read>&#13;
-			<transout>ID
-LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>102</to>&#13;
-			<read>*</read>&#13;
-			<transout>ID
-TIMES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>39</to>&#13;
-			<read>v</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
 			<from>34</from>&#13;
-			<to>91</to>&#13;
-			<read>(</read>&#13;
+			<to>97</to>&#13;
+			<read>;</read>&#13;
 			<transout>ID
-LPAREN
+SEMICOLON
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>45</from>&#13;
+			<to>62</to>&#13;
+			<read>!</read>&#13;
+			<transout>NUMBER
+DIFFERENT
 </transout>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>33</from>&#13;
-			<to>101</to>&#13;
-			<read>-</read>&#13;
-			<transout>ID
-MINUS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>0</from>&#13;
-			<to>30</to>&#13;
+			<to>34</to>&#13;
 			<read>r</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>0</from>&#13;
-			<to>73</to>&#13;
-			<read>[</read>&#13;
-			<transout>LBRACKETS
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
 			<from>32</from>&#13;
-			<to>100</to>&#13;
-			<read>+</read>&#13;
-			<transout>ID
-PLUS
-</transout>&#13;
+			<to>33</to>&#13;
+			<read>u</read>&#13;
+			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>33</from>&#13;
-			<to>97</to>&#13;
-			<read>;</read>&#13;
-			<transout>ID
-SEMICOLON
-</transout>&#13;
+			<from>34</from>&#13;
+			<to>35</to>&#13;
+			<read>n</read>&#13;
+			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
-			<from>42</from>&#13;
-			<to>87</to>&#13;
-			<read> </read>&#13;
-			<transout>VOID
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>99</to>&#13;
-			<read> </read>&#13;
-			<transout>ID
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>103</to>&#13;
-			<read>/</read>&#13;
-			<transout>ID
-DIVIDE
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>95</to>&#13;
-			<read>{</read>&#13;
-			<transout>ID
-LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>4</from>&#13;
-			<to>1</to>&#13;
-			<read>a-z 0-9</read>&#13;
+			<from>0</from>&#13;
+			<to>23</to>&#13;
+			<read>w</read>&#13;
 			<transout/>&#13;
 		</transition>&#13;
 		<transition>&#13;
 			<from>33</from>&#13;
-			<to>103</to>&#13;
-			<read>/</read>&#13;
-			<transout>ID
-DIVIDE
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>33</from>&#13;
-			<to>99</to>&#13;
-			<read> </read>&#13;
-			<transout>ID
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>97</to>&#13;
-			<read>;</read>&#13;
-			<transout>ID
-SEMICOLON
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>12</from>&#13;
-			<to>13</to>&#13;
-			<read>o</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>1</to>&#13;
-			<read>0-9</read>&#13;
-			<transout/>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>66</from>&#13;
-			<to>88</to>&#13;
-			<read> </read>&#13;
-			<transout>DIVIDE
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>30</from>&#13;
-			<to>102</to>&#13;
-			<read>*</read>&#13;
-			<transout>ID
-TIMES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
-			<to>95</to>&#13;
-			<read>{</read>&#13;
-			<transout>ID
-LBRACES
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>35</from>&#13;
-			<to>36</to>&#13;
-			<read>(</read>&#13;
-			<transout>RETURN
-LPAREN
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>27</from>&#13;
-			<to>29</to>&#13;
-			<read> </read>&#13;
-			<transout>WHILE
-</transout>&#13;
-		</transition>&#13;
-		<transition>&#13;
-			<from>1</from>&#13;
 			<to>101</to>&#13;
 			<read>-</read>&#13;
 			<transout>ID
 MINUS
 </transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>1</to>&#13;
+			<read>a-z</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>15</from>&#13;
+			<to>18</to>&#13;
+			<read> </read>&#13;
+			<transout>FLOAT
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>22</from>&#13;
+			<to>43</to>&#13;
+			<read>{</read>&#13;
+			<transout>ELSE
+LBRACES
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>1</from>&#13;
+			<to>104</to>&#13;
+			<read>&gt;</read>&#13;
+			<transout>ID
+GREATER
+</transout>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>0</from>&#13;
+			<to>69</to>&#13;
+			<read>&lt;</read>&#13;
+			<transout/>&#13;
+		</transition>&#13;
+		<transition>&#13;
+			<from>41</from>&#13;
+			<to>42</to>&#13;
+			<read>d</read>&#13;
+			<transout/>&#13;
 		</transition>&#13;
 	</automaton>&#13;
 </structure>
